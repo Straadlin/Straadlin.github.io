@@ -1,10 +1,311 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <meta charset='utf-8' />
-    <title></title>
-  </head>  
+    <title>Alfredo Estrada - TRC</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+  </head>
   <body>
-	Hi, I'm using the github pages.
+
+    <!-- Header -->
+    <div id="header">
+
+      <div class="top">
+
+        <!-- Logo -->
+        <div id="logo">
+          <span class="image avatar48"><img src="assets/images/avatar.jpg" alt="" /></span>
+          <h1 id="title">Alfredo Estrada</h1>
+          <p>Desarrollador de Software</p>
+        </div>
+
+        <!-- Nav -->
+        <nav id="nav">
+          <!--
+
+              Prologue's nav expects links in one of two formats:
+
+              1. Hash link (scrolls to a different section within the page)
+
+                 <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+              2. Standard link (sends the user to another page/site)
+
+                 <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+          -->
+          <ul>
+            <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+            <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Experiencia</span></a></li>
+            <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Acerca de Mi</span></a></li>
+            <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contacto</span></a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="bottom">
+
+        <!-- Social Icons -->
+        <ul class="icons">
+          <!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+          <!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
+          <li><a href="https://github.com/Straadlin" class="icon fa-github"><span class="label">Github</span></a></li>
+          <!--<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+          <li><a href="mailto:estrada.meraz@gmail.com?subject=Contacto Laboral" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+
+      <!-- Intro -->
+      <section id="top" class="one dark cover">
+        <div class="container">
+
+          <header>
+            <h2 class="alt">Mi nombre es <strong>Alfredo Estrada</strong> y soy desarrollador de software</h2>
+            <p>
+              Soy un desarrollador de software con casi 3 años de experiencia profesional en el sector contable y
+              fiscal en entornos web y de escritorio. Profesionista titulado, responsable, dedicado,
+              comprometido y fuertemente apasionado por aprender tecnologías y trabajar en soluciones a
+              problemas diversos a través de ellas.
+              Acostumbrado al trabajo en equipo e individual (freelancer) y a las
+              responsabilidades que conlleva.
+            </p>
+          </header>
+
+          <footer>
+            <a href="#portfolio" class="button scrolly">Continuar...</a>
+          </footer>
+
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="two">
+        <div class="container">
+
+          <header>
+            <h2>Experiencia</h2>
+          </header>
+
+          <section id="company">
+            <h3>Freelancer</h3>
+            <p>
+              Actualmente trabajo como desarrollador independiente, realizando trabajos sobre demanda.
+              En mi cuenta de GitHub mantengo un repositorio de un pequeño prototipo de lo que he desarrollado en
+              ambientes de escritorio. Es un resumen pequeño de mi experiencia en las tecnologías que
+              he ido trabajando profesionalmente y que puedo compartir.
+              <br /><br />
+              Descripción: El sistema emplea una base de datos SQL Server Express 2014 y 2016, según la
+              arquitectura del equipo sobre el que se instale el software. La base de datos está normalizada y
+              es auditable. Para ello trabajo con Triggers, Procedimientos almacenados, Funciones,
+              las CTE y Consultas, tanto dentro de la base de datos como desde la aplicación.
+              La aplicación está en capas y uso EntityFramework 6 y Linq para trabajar con la capa de datos.
+              Como reporteador uso ReportViewer12. Como Framework empleo el .NET 4.6.2 y trabajo con C# y
+              Windows Forms en Visual Studio 2017. La instalación de SQL Server es transparente de cara
+              al usuario.
+            </p>
+          </section>
+
+          <section id="company">
+            <h3>Empresa: S.I. Fiscal</h3>
+            <br />
+            Puesto: Desarrollador de Software<br />
+            Periodo: 2013 → 2016
+            <br /><br />
+            En esta empresa trabaje en el desarrollo de 3 sistemas, 1 aplicación web y 2 de escritorio, las cuales describo a continuación:
+            <br /><br />
+            1.- El primer sistema en el que trabaje fue un <strong>sistema web</strong> para el control de soportes
+            técnicos y contables, dirigido a los clientes de los sistemas que se ofrecen
+            en la empresa. El cual distribuía las solicitudes registradas por los clientes
+            entre el personal, canalizándolas a sus respectivas áreas y a los respectivos agentes.
+            El sistema generaba resultados diversos de los soportes registrados.
+            <br /><br />
+            El desarrollo de este sistema se llevó a cabo desde el análisis hasta
+            su mantenimiento. Lo trabaje usando ASP Classico y MySQL (con Workbrench).
+            En la parte de MYSQL trabaje en consultas sobre tablas, tanto selección como
+            inserción, modificación y eliminación de registros, todo realizándolo desde scripts
+            dentro de archivos ASP. El trabajo con ASP lo ligue a jQuery para la alteración
+            de tablas y componentes html en base a eventos del usuario sobre la página.
+            La parte de presentación la lleve a cabo usando HTML4+CSS2+JavaScript.
+            Para la documentación trabajé diagramas de casos de uso, diagrama E-R para la base
+            de datos en Visual Paradigm y los requerimientos funcionales y no funcionales.
+            <br /><br />
+            2.- En los siguientes años trabaje en el desarrollo y mantenimiento de un <strong>sistema
+            de escritorio</strong>, de distribución masiva y de naturaleza contable. El cual cubría
+            manejo de pólizas, trabajo con múltiples catálogos y contribuyentes, gestión de
+            comprobantes XML y sus validaciones consumiendo el servicio del SAT, generación de
+            reportes diversos como estado de posición financiera, estado de resultados,
+            balanza de comprobación, auxiliares y otros más. Además de ello realizaba
+            los cálculos de ISR e IVA, tanto de personas físicas como de personas morales,
+            anuales y mensuales. Finalmente cumplía con todos los últimos requisitos establecidos
+            por el SAT sobre la presentación de contabilidad electrónica (XML),
+            como lo fueron, balanza de comprobación, registro de pólizas,
+            catálogo de cuentas y complementarias.
+            <br />
+            El sistema permitía trabajar con múltiples usuarios y equipos en redes LAN y WAN. Y contenía un módulo que se encargaba de realizar respaldos automáticos cada cierto tiempo de la información en la base de datos.
+            <br /><br />
+            El desarrollo de este sistema lo llevamos a cabo principalmente sobre .NET Framework
+            4.5.1 con C# en WindowsForms con Visual Studio 2013 y 2015, usando SQL Server 2012
+            Express como almacén de datos. La aplicación estaba dividida en capas y lo que
+            correspondía a las consultas las llevaba a cabo desde la capa de datos en la
+            aplicación C#. Igualmente trabajé consultas con Join’s, inserciones, modificaciones y
+            eliminaciones de registros; también trabajé recursividad usando las CTE y con
+            manipulación de creación de columnas, tablas y llaves foráneas desde C#.
+            La versión de SQL Server que trabajamos iba embebida en la aplicación, cada vez que
+            se instalaba y configuraba el producto, este realizaba la instalación de una instancia
+            y de la construcción de la base de datos (todo de manera transparente para el usuario).
+            En la capa de negocio trabaje con Linq para realizar filtros de datos y consultas
+            diversas.
+            <br />
+            Como reporteador usé ReportViewer 11 y 12. Trabajé consumiendo el servicio ofrecido por
+            el SAT para validación de documentos. De instalador emplee InstalShield 2013 y 2015.
+            Para la parte de presentación use herramientas de Syncfusion. Y para la documentación
+            trabajé diagramas de casos de uso, diagrama E-R para la base de datos en
+            Visual Paradigm y los requerimientos funcionales y no funcionales.
+            <br /><br />
+            3.- En los últimos meses de relación laboral, y como último proyecto realizado
+            como persona externa a la empresa, trabajé en un <strong>sistema de escritorio</strong> que
+            englobaría más de 30 adendas. El cuál permitía cumplir con los requisitos para
+            agregar información comercial de más de 30 empresas (Chedraui, Liverpool, LALA, etc.),
+            en una misma aplicación, hacia comprobantes CFDI (XML).
+            Este sistema se validaba por internet y se revocaba la licencia de uso también
+            por internet. Además, este sistema se actualizaba en los clientes de forma automática,
+            desde las instalaciones de la empresa, cada vez que así se solicitaba.
+
+            Este sistema estaba dividido en 2 aplicaciones de escritorio escritas en C# usando .NET Framework 4.6.1 y WindowsForms. Y usaba como almacén de datos SQL Server 2014, tanto para trabajar las operaciones del CRUD como para trabajar Triggers, Funciones, Procedimientos almacenados, Consultas y Subconsultas, empleando recursividad con las CTE de SQL. El reporteador empleado fue ReportViewer 12. En este proyecto use capas y me apoye en su totalidad con EntityFramework 6 y Linq para sustituir la capa de datos. Además, use Installshield 2015 como generador de instaladores. Y para el manejo de archivos de gran volumen que usaba en la aplicación me apoye en la API de Dropbox. Para la parte de presentación use herramientas de Syncfusion. Y para la documentación trabajé solamente diagrama E-R para la base de datos en Visual Paradigm.
+          </section>
+
+          <!--<div class="row">
+            <div class="4u 12u$(mobile)">
+              <article class="item">
+                <a href="#" class="image fit"><img src="assets/images/pic02.jpg" alt="" /></a>
+                <header>
+                  <h3>Ipsum Feugiat</h3>
+                </header>
+              </article>
+              <article class="item">
+                <a href="#" class="image fit"><img src="assets/images/pic03.jpg" alt="" /></a>
+                <header>
+                  <h3>Rhoncus Semper</h3>
+                </header>
+              </article>
+            </div>
+            <div class="4u 12u$(mobile)">
+              <article class="item">
+                <a href="#" class="image fit"><img src="assets/images/pic04.jpg" alt="" /></a>
+                <header>
+                  <h3>Magna Nullam</h3>
+                </header>
+              </article>
+              <article class="item">
+                <a href="#" class="image fit"><img src="assets/images/pic05.jpg" alt="" /></a>
+                <header>
+                  <h3>Natoque Vitae</h3>
+                </header>
+              </article>
+            </div>
+            <div class="4u$ 12u$(mobile)">
+              <article class="item">
+                <a href="#" class="image fit"><img src="assets/images/pic06.jpg" alt="" /></a>
+                <header>
+                  <h3>Dolor Penatibus</h3>
+                </header>
+              </article>
+              <article class="item">
+                <a href="#" class="image fit"><img src="assets/images/pic07.jpg" alt="" /></a>
+                <header>
+                  <h3>Orci Convallis</h3>
+                </header>
+              </article>
+            </div>
+          </div>-->
+
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section id="about" class="three">
+        <div class="container">
+
+          <header>
+            <h2>Acerca de Mi</h2>
+          </header>
+
+          <a href="#" class="image featured"><img src="assets/images/pic08.jpg" alt="" /></a>
+
+          <p>
+            Mi nombre es José Alfredo Estrada, y tengo actualmente 28 años. Soy una persona muy tranquila en lo general,
+            pero en lo tecnológico soy una persona a la que le gusta aprender
+            cosas nuevas y experimentar con diferentes retos y ambientes.
+            Me encantaría incorporarme a una empresa comprometida con su equipo de trabajo y que
+            mantenga importantes objetivos en el desarrollo de software, para ofrecer mi mejor nivel de
+            desempeño y mejorar así mis habilidades en base a la experiencia.
+            Ser parte de una empresa con buenos objetivos, trabajar en equipo y tener responsabilidades
+            en ella es motivante, al poder colaborar en soluciones a diferentes problemas.
+          </p>
+
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="four">
+        <div class="container">
+
+          <header>
+            <h2>Contacto</h2>
+          </header>
+
+          <p>
+            Para consultar más detalles acerca de mi perfil laboral pueden hacerlo enviandome
+            un correo electrónico a:<br /><strong id="contact">estrada.meraz@gmail.com</strong>
+          </p>
+
+          <!--<form method="post" action="#">
+            <div class="row">
+              <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+              <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+              <div class="12u$">
+                <textarea name="message" placeholder="Message"></textarea>
+              </div>
+              <div class="12u$">
+                <input type="submit" value="Send Message" />
+              </div>
+            </div>
+          </form>-->
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+
+      <!-- Copyright -->
+      <!--<ul class="copyright">
+        <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>-->
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
   </body>
 </html>
