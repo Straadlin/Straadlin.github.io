@@ -20,7 +20,7 @@
         <div id="logo">
           <span class="image avatar48"><img src="assets/images/avatar.jpg" alt="" /></span>
           <h1 id="title">Alfredo Estrada</h1>
-          <p>Desarrollador de Software</p>
+          <p>Software Engineer</p>
         </div>
 
         <!-- Nav -->
@@ -39,10 +39,10 @@
 
           -->
           <ul>
-            <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-            <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Experiencia</span></a></li>
-            <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Acerca de Mi</span></a></li>
-            <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contacto</span></a></li>
+            <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+            <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Experience</span></a></li>
+            <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About me</span></a></li>
+            <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
           </ul>
         </nav>
 
@@ -71,19 +71,21 @@
         <div class="container">
 
           <header>
-            <h2 class="alt">I'm a <strong>Software Developer</strong></h2>
+            <h2 class="alt"><strong>Software Engineer</strong></h2>
             <p>
-              Soy un desarrollador con casi 3 años de experiencia profesional en el sector contable y
-              fiscal en entornos web y de escritorio. Profesionista titulado, responsable, dedicado,
-              comprometido y fuertemente apasionado por aprender tecnologías y trabajar en soluciones a
-              problemas diversos a través de ellas.
-              Acostumbrado al trabajo en equipo e individual (freelancer) y a las
-              responsabilidades que conlleva.
+              Software engineer with a degree in Computer System Engineering, 
+              with more than 9 years of experience, working in sectors like retail stores 
+              (point of sale software) and electronic accounting (accounting and billing 
+              electronic software). I’ve worked principally on desktop and cloud 
+              environments as WPF, Windows Forms, Windows Services (Rest API); and cloud 
+              computing (Microsoft Azure and Google Firebase) as Microservices (Rest API’s), 
+              Service Workers, Data Factories, SQL Databases. In all these cases I’ve been 
+              building them using Layer Architectures and Clean Architectures.
             </p>
           </header>
 
           <footer>
-            <a href="#portfolio" class="button scrolly">Continuar...</a>
+            <a href="#portfolio" class="button scrolly">Continue...</a>
           </footer>
 
         </div>
@@ -94,95 +96,68 @@
         <div class="container">
 
           <header>
-            <h2>Experiencia</h2>
+            <h2>Experience</h2>
           </header>
 
           <section id="company">
-            <h3>Freelancer</h3>
+            <h3>Neoris de México</h3>
             <p>
-              Actualmente trabajo como desarrollador independiente, realizando trabajos sobre demanda.
-              En mi cuenta de GitHub mantengo un repositorio de un pequeño prototipo de lo que he desarrollado en
-              ambientes de escritorio. Es un resumen pequeño de mi experiencia en las tecnologías que
-              he ido trabajando profesionalmente y que puedo compartir.
+              Software Engineer [August 2022 → December 2023]
               <br /><br />
-              Descripción: El sistema emplea una base de datos SQL Server Express 2014 y 2016, según la
-              arquitectura del equipo sobre el que se instale el software. La base de datos está normalizada y
-              es auditable. Para ello trabajo con Triggers, Procedimientos almacenados, Funciones,
-              las CTE y Consultas, tanto dentro de la base de datos como desde la aplicación.
-              La aplicación está en capas y uso EntityFramework 6 y Linq para trabajar con la capa de datos.
-              Como reporteador uso ReportViewer12. Como Framework empleo el .NET 4.6.2 y trabajo con C# y
-              Windows Forms en Visual Studio 2017. La instalación de SQL Server es transparente de cara
-              al usuario.
+              I collaborate at Neoris company as a software engineer. I had the opportunity to work on different projects with different teams developing and extending functionalities.
+              <br />
+              I work in several REST and gRPC APIs, which ran in Azure cloud as microservices. I built a self-hosting (self-signed certificate) REST API, that it ran as a Windows Service to manage and transfer information from their principal system (POS) to different microservices.
+              <br />
+              Also, I implemented a functionality with Data Factor service, to propagate automatically records among every domain. I used SQL Databases as principal repositories to persist the main information of every domain.
+              I worked with Azure Blob Storage to save temporal/raw data which was finally processed for Azure Workers with the purpose to feed different databases (domains). And finally, I worked with a Service Bus to receive and queue requests from POS (client), to be launched every request invoking an Azure Function (Handler of multiple process communicated using gRPC), to process the data and save the result resources in the different cloud repositories.
+              <br />
+              Furthermore, in this project I had an express opportunity to have a technical support role to provide maintenance to our solution, providing solutions to every issue occurred in production environment.
+              <br />
+              My last participation concluded with a trainer role, to collaborate and communicate to Client’s L3 Team all the technical aspects and issues that we had throughout the development and deployment.
+              <br />
+              Finally, these projects were the most challenging that I've had in my career, because I had the opportunity to collaborate with many technologies on cloud and with a lot of experienced people. And I need to mention that this migration represented the most important Hito to our customer’s IT Area in the last years, because this solutions migrate all his modules (monolithic system) to cloud services (microservices) in Azure allowing to integrate with new services.
             </p>
           </section>
 
           <section id="company">
-            <h3>Empresa: S.I. Fiscal</h3>
-            <br />
-            Puesto: Desarrollador de Software<br />
-            Periodo: 2013 → 2016
-            <br /><br />
-            En esta empresa trabaje en el desarrollo de 3 sistemas, 1 aplicación web y 2 de escritorio, las cuales describo a continuación:
-            <br /><br />
-            1.- El primer sistema en el que trabaje fue un <strong>sistema web</strong> para el control de soportes
-            técnicos y contables, dirigido a los clientes de los sistemas que se ofrecen
-            en la empresa. El cual distribuía las solicitudes registradas por los clientes
-            entre el personal, canalizándolas a sus respectivas áreas y a los respectivos agentes.
-            El sistema generaba resultados diversos de los soportes registrados.
-            <br /><br />
-            El desarrollo de este sistema se llevó a cabo desde el análisis hasta
-            su mantenimiento. Lo trabaje usando ASP Classico y MySQL (con Workbrench).
-            En la parte de MYSQL trabaje en consultas sobre tablas, tanto selección como
-            inserción, modificación y eliminación de registros, todo realizándolo desde scripts
-            dentro de archivos ASP. El trabajo con ASP lo ligue a jQuery para la alteración
-            de tablas y componentes html en base a eventos del usuario sobre la página.
-            La parte de presentación la lleve a cabo usando HTML4+CSS2+JavaScript.
-            Para la documentación trabajé diagramas de casos de uso, diagrama E-R para la base
-            de datos en Visual Paradigm y los requerimientos funcionales y no funcionales.
-            <br /><br />
-            2.- En los siguientes años trabaje en el desarrollo y mantenimiento de un <strong>sistema
-            de escritorio</strong>, de distribución masiva y de naturaleza contable. El cual cubría
-            manejo de pólizas, trabajo con múltiples catálogos y contribuyentes, gestión de
-            comprobantes XML y sus validaciones consumiendo el servicio del SAT, generación de
-            reportes diversos como estado de posición financiera, estado de resultados,
-            balanza de comprobación, auxiliares y otros más. Además de ello realizaba
-            los cálculos de ISR e IVA, tanto de personas físicas como de personas morales,
-            anuales y mensuales. Finalmente cumplía con todos los últimos requisitos establecidos
-            por el SAT sobre la presentación de contabilidad electrónica (XML),
-            como lo fueron, balanza de comprobación, registro de pólizas,
-            catálogo de cuentas y complementarias.
-            <br />
-            El sistema permitía trabajar con múltiples usuarios y equipos en redes LAN y WAN. Y contenía un módulo que se encargaba de realizar respaldos automáticos cada cierto tiempo de la información en la base de datos.
-            <br /><br />
-            El desarrollo de este sistema lo llevamos a cabo principalmente sobre .NET Framework
-            4.5.1 con C# en WindowsForms con Visual Studio 2013 y 2015, usando SQL Server 2012
-            Express como almacén de datos. La aplicación estaba dividida en capas y lo que
-            correspondía a las consultas las llevaba a cabo desde la capa de datos en la
-            aplicación C#. Igualmente trabajé consultas con Join’s, inserciones, modificaciones y
-            eliminaciones de registros; también trabajé recursividad usando las CTE y con
-            manipulación de creación de columnas, tablas y llaves foráneas desde C#.
-            La versión de SQL Server que trabajamos iba embebida en la aplicación, cada vez que
-            se instalaba y configuraba el producto, este realizaba la instalación de una instancia
-            y de la construcción de la base de datos (todo de manera transparente para el usuario).
-            En la capa de negocio trabaje con Linq para realizar filtros de datos y consultas
-            diversas.
-            <br />
-            Como reporteador usé ReportViewer 11 y 12. Trabajé consumiendo el servicio ofrecido por
-            el SAT para validación de documentos. De instalador emplee InstalShield 2013 y 2015.
-            Para la parte de presentación use herramientas de Syncfusion. Y para la documentación
-            trabajé diagramas de casos de uso, diagrama E-R para la base de datos en
-            Visual Paradigm y los requerimientos funcionales y no funcionales.
-            <br /><br />
-            3.- En los últimos meses de relación laboral, y como último proyecto realizado
-            como persona externa a la empresa, trabajé en un <strong>sistema de escritorio</strong> que
-            englobaría más de 30 adendas. El cuál permitía cumplir con los requisitos para
-            agregar información comercial de más de 30 empresas (Chedraui, Liverpool, LALA, etc.),
-            en una misma aplicación, hacia comprobantes CFDI (XML).
-            Este sistema se validaba por internet y se revocaba la licencia de uso también
-            por internet. Además, este sistema se actualizaba en los clientes de forma automática,
-            desde las instalaciones de la empresa, cada vez que así se solicitaba.
+            <h3>BSD Enterprise</h3>
+            <p>
+              Software Engineer [May 2017 → August 2022]
+              <br /><br />
+              I participated principally in a Point of Sale of our client, developing different functionalities, working principally with desktop application as Windows Services (REST API’s) and WPF(M-V-VM) using Net Framework and PRISM. Also, I worked on extending functionalities in Windows Services (called satellites of POS).
+              <br />
+              In a little period in my career in this company I worked as a Technical Support (L3), providing support for issues and maintenance to old functionalities. I had this role in addition to that of software developer.
+              <br />
+              Finally, in the final part of my participation in this project, I gained more experience, first designing, and then, building software solutions when I was promoted with Application Design Manager (EDA) role. In this period, I had two roles at the same time, a technical designer and software developer.
+            </p>
+          </section>
 
-            Este sistema estaba dividido en 2 aplicaciones de escritorio escritas en C# usando .NET Framework 4.6.1 y WindowsForms. Y usaba como almacén de datos SQL Server 2014, tanto para trabajar las operaciones del CRUD como para trabajar Triggers, Funciones, Procedimientos almacenados, Consultas y Subconsultas, empleando recursividad con las CTE de SQL. El reporteador empleado fue ReportViewer 12. En este proyecto use capas y me apoye en su totalidad con EntityFramework 6 y Linq para sustituir la capa de datos. Además, use Installshield 2015 como generador de instaladores. Y para el manejo de archivos de gran volumen que usaba en la aplicación me apoye en la API de Dropbox. Para la parte de presentación use herramientas de Syncfusion. Y para la documentación trabajé solamente diagrama E-R para la base de datos en Visual Paradigm.
+          <section id="company">
+            <h3>Freelance</h3>
+            <p>
+              Software Engineer [Agosto del 2016 → Mayo del 2017]
+              <br /><br />
+              I worked as an independent developer, undertaking custom projects for local clients.
+            </p>
+          </section>
+
+          <section id="company">
+            <h3>S.I. Fiscal</h3>
+            <p>
+              Software Engineer [September 2013 → August 2016]
+              <br /><br />
+              I participated in this company working with web and desktop projects, based principally on Classic ASP, MySQL, SQL Server and Windows Forms (Net Framework).
+              <br />
+              The first project in which I participated was a management web application, to handle and manage the different issues what the clients reported in our support line. This provides an easy way to manage this kind of reports and provided a useful tool to manage these cases in the support area.
+              <br />
+              My second participation was developing an accounting software, it allowed control the accounting movements, calculate the different taxes that exists in Mexico. Also,
+              page. 4
+              RESUME: Software Engineer with a degree in System Computer Engineering
+              this
+              satisfied the accounting needs required for SAT (taxes government dependency).
+              <br />
+              My last participation we developing different small application called Addendas, that allowed our clients to feed every invoice with extra purchase information that is required by transmitter and receptor for every invoice. This allowed our company to increase the quantity of products/solutions to offer our customers. I develop at least 15 Addendas.
+            </p>
           </section>
 
           <!--<div class="row">
@@ -233,7 +208,7 @@
         </div>
 
         <footer>
-          <a href="#about" class="button scrolly">Continuar...</a>
+          <a href="#about" class="button scrolly">Continue...</a>
         </footer>
 
       </section>
@@ -243,28 +218,23 @@
         <div class="container">
 
           <header>
-            <h2>Acerca de Mi</h2>
+            <h2>About me</h2>
           </header>
 
           <!--<a href="#" class="image featured"><img src="assets/images/pic08.jpg" alt="" /></a>-->
 
           <p>
-            Mi nombre es José Alfredo Estrada, y tengo actualmente 28 años. Actualmente vivo en
-            Coahuila, México.
-            Soy una persona muy tranquila en lo general,
-            pero en lo tecnológico soy una persona a la que le gusta aprender
-            cosas nuevas y experimentar con diferentes retos y ambientes.
-            Me encantaría incorporarme a una empresa comprometida con su equipo de trabajo y que
-            mantenga importantes objetivos en el desarrollo de software, para ofrecer mi mejor nivel de
-            desempeño y mejorar así mis habilidades en base a la experiencia.
-            Ser parte de una empresa con buenos objetivos, trabajar en equipo y tener responsabilidades
-            en ella es motivante, al poder colaborar en soluciones a diferentes problemas.
+            I'm a Mexican person who enjoys doing general activities alone, and I consider 
+            myself a person who needs others to grown up as person..
+            I like helping people who don't have the beauty opportunity to have a close contact 
+            with technology, because I consider some people, unfornately, never will know how this 
+            environment can help them to improve their life quality.
           </p>
 
         </div>
 
         <footer>
-          <a href="#contact" class="button scrolly">Continuar...</a>
+          <a href="#contact" class="button scrolly">Continue...</a>
         </footer>
 
       </section>
@@ -274,14 +244,14 @@
         <div class="container">
 
           <header>
-            <h2>Contacto</h2>
+            <h2>Contact</h2>
           </header>
 
           <p>
-            Para consultar más detalles acerca de mi perfil laboral pueden hacerlo enviandome
-            un correo electrónico a:<br /><strong id="contact">estrada.meraz@gmail.com</strong>
+            To review more details about my work profile, you can send me an 
+            email to:<br /><strong id="contact">estrada-meraz@hotmail.com</strong>
             <br />
-            También pueden visitar mi cuenta de Github para evaluar mi contenido:<br />
+            Furthemore, you can visit my Github profile to check my public repositories and evaluate my content:<br />
             <strong id="contact">https://github.com/Straadlin</strong>
           </p>
 
